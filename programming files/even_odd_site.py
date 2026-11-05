@@ -12,6 +12,6 @@ with open("numbers.html", "w") as f:
             if i % 3 == 0:
                 g.write("<tr><td></td><td>{}</td></tr>\n".format(i))
     f.write("</table>\n</body>\n</html>")
-with open("numbers.html"") as f:
+with open("numbers.html") as f:
     print(f.read())
     
