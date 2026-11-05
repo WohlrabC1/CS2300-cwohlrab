@@ -8,10 +8,10 @@ public class remove_duplicates {
     public static List<Integer> removeDuplicates(List<Integer> arr, List<Integer> removedElements) {
         List<Integer> uniqueArr = new ArrayList<>();
         for (int i = 0; i < arr.size(); i++) {
-            if (!uniqueArr.contains(arr.get(i))) {
-                uniqueArr.add(arr.get(i));
+            if (uniqueArr.contains(arr.get(0))) {
+                uniqueArr.add(arr.get(0));
             } else {
-                removedElements.add(arr.get(i));
+                removedElements.add(arr.get(0));
             }
         }
         return uniqueArr;
