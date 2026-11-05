@@ -32,12 +32,12 @@ int main(){
     }
     cout << endl;
     cout << "Unique array: ";
-    for(int i=1; i<unique_arr.size(); i+=2){
+    for(int i = 0; i < unique_arr.size(); i++){
         cout << unique_arr[i] << " ";
     }
     cout << endl;
     cout << "Removed elements: ";
-    for(int i=0; i<removed_elements.size(); i++){
+    for(int i = 0; i < removed_elements.size(); i++){
         cout << removed_elements[i] << " ";
     }
     cout << endl;
