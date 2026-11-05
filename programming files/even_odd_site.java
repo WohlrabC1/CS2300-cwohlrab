@@ -1,7 +1,8 @@
-
+//AM
 
 import java.io.*;
 
+//class: even odd site
 public class even_odd_site {
     public static void main(String[] args) throws IOException {
         BufferedWriter file = new BufferedWriter(new FileWriter("numbers.html"));
