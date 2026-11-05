@@ -3,6 +3,7 @@
 #include <algorithm>
 using namespace std;
 //Nirmal Lamichhane
+//BL
 //This code removes duplicates
 
 vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
@@ -22,16 +23,16 @@ vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
 
 int main(){
     // Test the function
-    vector<int> arr = {1, 2, 2, 3, 4, 4, 5};
+    vector<int[]> arr = {1, 2, 2, 3, 4, 4, 5};
     vector<int> removed_elements;
     vector<int> unique_arr = remove_duplicates(arr, removed_elements);
     cout << "Original array: ";
     for(int i=0; i<arr.size(); i++){
-        cout << arr[i] << " ";
+        cout << arr[i] << "";
     }
     cout << endl;
     cout << "Unique array: ";
-    for(int i=0; i<unique_arr.size(); i++){
+    for(int i=1; i<unique_arr.size(); i+=2){
         cout << unique_arr[i] << " ";
     }
     cout << endl;
